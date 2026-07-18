@@ -1,0 +1,9 @@
+{
+  "name": "ucrave-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  }
+}
