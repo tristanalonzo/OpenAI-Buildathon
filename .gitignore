@@ -19,3 +19,6 @@ npm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+# Internal docs / local tooling
+UCRAVE_HANDOFF.md
+.claude/

@@ -26,59 +26,63 @@ The agent reasons over our surveyed spot data — filtering by location, budget,
 
 **Example**
 
-> *Input:* ₱150, 45 minutes, Morayta cluster, "something warm"
-> *Output:* A plan with 1–2 spots, in order, each with a one-line reason (price, walk time, why it fits the craving).
+> *Input:* ₱350, 90 minutes, U-Belt / Sampaloc, "merienda then coffee to study"
+> *Output:* An ordered route — 01 a ₱ merienda stop, 02 a coffee spot to study at — each with a one-line reason tying it to the budget, the clock, and the craving.
 
 ## How it works
 
 1. **Input** — a single form (four fields, no accounts).
-2. **Agent loop** — filters `spots.json` to candidates that fit location, budget, and open hours, then GPT-5.6 composes and justifies the plan.
-3. **Output** — a clean result card: the plan, each spot with its "why."
+2. **Pre-filter in code, not in the model** — the server filters `ucrave-spots.json` down to candidates that fit the zone (derived from coordinates where not tagged), the budget tier, and open-now hours, then passes **at most 24 candidates** to the model.
+3. **GPT-5.6 composes the plan** — via strict JSON-schema structured output: an ordered route of 1–3 stops, each with a one-line reason. Every returned spot is validated against the supplied candidates, so the model cannot hallucinate a place that doesn't exist.
+4. **Output** — a clean result card: the titled plan, numbered stops, each spot with its "why," and a friendly no-match fallback instead of an error.
 
 ## Tech
 
-- **Codex** — authored the application code.
-- **GPT-5.6** — runtime reasoning that composes each meal plan.
-- **Web app** — [fill in stack: e.g. React frontend, Node/Express backend].
-- **Data** — `spots.json`, a dataset of real U-Belt food spots.
+- **Codex** — authored the core planner during the event.
+- **GPT-5.6** (`gpt-5.6-terra`) — runtime reasoning that composes each meal plan.
+- **Web app** — React (Vite) frontend, Node/Express backend for local dev, Vercel serverless function (`api/plan.js`) in production. Both share the same planner module (`lib/planner.js`).
+- **Data** — `ucrave-spots.json`: 204 real food spots, 66 fully enriched (price range, hours, vibe tags).
 
 ## The data
 
-The spot dataset was **collected by our team through field research** — we surveyed real food spots around the University Belt on foot, logging public business information (name, cluster, price range, hours, and our own category tags). This dataset is raw material we brought to the build; **all application code was written with Codex during the event.**
+The spot dataset was **collected by our team through field research** using **Munch Scout**, our own survey tool — we logged real food spots around the University Belt on foot, recording public business information (name, coordinates, price range, hours, and our own vibe tags). Of 204 spots, 66 are fully enriched. This dataset is raw material we brought to the build as input; the application code was built during the event window, with **Codex authoring the core planner**.
 
-`spots.json` contains only public business information. No personal or private contact data is included.
+`ucrave-spots.json` contains only public business information. No personal or private contact data is included.
 
 ## Running it locally
 
-> [Fill in during Sprint 2 — keep it to steps a stranger can follow in 5 minutes.]
-
 ```bash
 # 1. Clone
-git clone [repo-url]
-cd ucrave-agent
+git clone https://github.com/tristanalonzo/OpenAI-Buildathon.git
+cd OpenAI-Buildathon
 
-# 2. Install
-[npm install]
+# 2. Install (root + client)
+npm install
+npm install --prefix client
 
-# 3. Configure
-# Set your OpenAI API key:
-export OPENAI_API_KEY=...
+# 3. Configure — create .env at the repo root (UTF-8, single line):
+# OPENAI_API_KEY=sk-...
 
-# 4. Run
-[npm run dev]
-# open http://localhost:[port]
+# 4. Run (starts Vite client + Express API together)
+npm run dev
+# open the URL Vite prints (usually http://localhost:5173)
 ```
 
-Sample data is included in `spots.json` so the app runs out of the box.
+The dataset is included in `ucrave-spots.json`, so the app runs out of the box — the server logs `Loaded 204 spots across 4 zones` and `KEY LOADED: true` on a healthy start.
+
+## Deploying (Vercel)
+
+- `vercel.json` sets the install/build commands and `client/dist` as the output directory.
+- `api/plan.js` is the serverless port of the planner (same shared `lib/planner.js`).
+- Set `OPENAI_API_KEY` in Vercel → Project → Settings → Environment Variables (all environments), then push to `main` to deploy.
 
 ## How we built it with Codex
 
-> [Fill from NOTES.md before submitting. Be specific — name real decisions, not "Codex helped us code faster."]
-
-- **Scaffolding:** [what Codex set up]
-- **Agent loop:** [key decision Codex made — e.g. "precompute per-cluster candidate filtering before the model call rather than passing the full dataset each time"]
-- **[Decision 2]:** [...]
-- **Where GPT-5.6 does the reasoning:** [the specific step — composing and justifying the plan]
+- **Scaffolding:** Vite + React client, Express server, concurrent dev script, dataset loader with startup verification (`204 spots / 4 zones`).
+- **Filter-in-code architecture:** candidate narrowing (zone, budget tier, open-now) happens in deterministic code before the model call — the model only ever sees ≤ 24 candidates, keeping calls cheap and grounded.
+- **Schema-validated output:** strict JSON-schema structured output plus a server-side check that every chosen spot exists in the candidate list — no hallucinated restaurants.
+- **The model-ID debugging arc:** a `400 model does not exist` was resolved by querying `GET /v1/models` on our account and using the exact listed 5.6-family ID.
+- **Where GPT-5.6 does the reasoning:** composing the ordered multi-stop route and writing the per-stop justification, at runtime, on every request.
 
 Codex session ID for the thread where the majority of core functionality was built: `[paste /feedback session ID]`
 

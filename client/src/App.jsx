@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const initialForm = { budget: '150', minutes: '20', zone_slug: '', craving: '' };
+const initialForm = { budget: '150', minutes: '20', zone_slug: 'u-belt', craving: '' };
 
 export default function App() {
   const [form, setForm] = useState(initialForm);
@@ -61,11 +61,10 @@ export default function App() {
           <label>
             Campus zone
             <select name="zone_slug" required value={form.zone_slug} onChange={updateField}>
-              <option value="" disabled>Choose a zone</option>
-              <option value="cubao">Cubao / Araneta</option>
-              <option value="nu-moa">NU – Mall of Asia</option>
               <option value="u-belt">U-Belt / Sampaloc</option>
-              <option value="up-diliman">UP Diliman</option>
+              <option value="cubao">Cubao / Araneta (limited coverage)</option>
+              <option value="nu-moa">NU – Mall of Asia (limited coverage)</option>
+              <option value="up-diliman">UP Diliman (limited coverage)</option>
             </select>
           </label>
           <label className="wide">
