@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const initialForm = { budget: '150', minutes: '20', zone: '', craving: '' };
+const initialForm = { budget: '150', minutes: '20', zone_slug: '', craving: '' };
 
 export default function App() {
   const [form, setForm] = useState(initialForm);
@@ -60,12 +60,12 @@ export default function App() {
           </label>
           <label>
             Campus zone
-            <select name="zone" required value={form.zone} onChange={updateField}>
+            <select name="zone_slug" required value={form.zone_slug} onChange={updateField}>
               <option value="" disabled>Choose a zone</option>
-              <option value="Cubao">Cubao / Araneta</option>
-              <option value="NU - MOA">NU – Mall of Asia</option>
-              <option value="U-Belt / Sampaloc">U-Belt / Sampaloc</option>
-              <option value="UP Diliman">UP Diliman</option>
+              <option value="cubao">Cubao / Araneta</option>
+              <option value="nu-moa">NU – Mall of Asia</option>
+              <option value="u-belt">U-Belt / Sampaloc</option>
+              <option value="up-diliman">UP Diliman</option>
             </select>
           </label>
           <label className="wide">
@@ -82,14 +82,14 @@ export default function App() {
         {plan && (
           <article className="plan-card">
             <p className="eyebrow">Plan preview</p>
-            <h2>{plan.plan.title}</h2>
-            <p>{plan.message}</p>
-            <dl>
-              <div><dt>Budget</dt><dd>₱{plan.request.budget}</dd></div>
-              <div><dt>Time</dt><dd>{plan.request.minutes} min</dd></div>
-              <div><dt>Dataset</dt><dd>{plan.dataset.spotsLoaded} spots</dd></div>
-            </dl>
-            <small>{plan.plan.note}</small>
+            <h2>{plan.title}</h2>
+            {plan.stops.map((stop, index) => (
+              <div className="stop" key={`${stop.name}-${index}`}>
+                <span>{String(index + 1).padStart(2, '0')}</span>
+                <div><h3>{stop.name} <em>{stop.price_range}</em></h3><p>{stop.reason}</p></div>
+              </div>
+            ))}
+            <small>{plan.note}</small>
           </article>
         )}
       </section>

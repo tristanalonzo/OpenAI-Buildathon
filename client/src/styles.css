@@ -30,10 +30,11 @@ button:disabled { opacity: .65; cursor: wait; }
 .error { color: #a72b19; margin: 0; }
 .plan-card { animation: arrive .35s ease both; }
 .plan-card h2 { margin-bottom: 9px; font-size: 2rem; line-height: 1; }
-.plan-card > p:not(.eyebrow) { line-height: 1.6; font-size: .85rem; }
-dl { display: flex; gap: 38px; margin: 22px 0 14px; }
-dt { color: #847366; font-size: .65rem; text-transform: uppercase; letter-spacing: .08em; }
-dd { margin: 5px 0 0; font-family: 'Fraunces', serif; font-size: 1.1rem; }
+.stop { display: grid; grid-template-columns: 30px 1fr; gap: 11px; padding: 14px 0; border-top: 1px solid #dfd1c1; }
+.stop > span { color: #f2572a; font-size: .7rem; padding-top: 4px; }
+.stop h3 { margin: 0 0 4px; font-family: 'Fraunces', serif; font-size: 1.1rem; letter-spacing: -.02em; }
+.stop em { color: #847366; font-family: 'DM Mono', monospace; font-size: .67rem; font-style: normal; font-weight: 400; letter-spacing: .03em; }
+.stop p { margin: 0; color: #594a41; font-size: .78rem; line-height: 1.55; }
 small { color: #847366; font-size: .68rem; }
 @keyframes arrive { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 @media (max-width: 720px) { .app-shell { padding: 20px 0; grid-template-columns: 1fr; } .intro { min-height: 330px; } .planner, .result, .intro { padding: 30px 24px; } .result { grid-column: auto; } form { grid-template-columns: 1fr; } .wide, button { grid-column: auto; } dl { gap: 18px; flex-wrap: wrap; } }
