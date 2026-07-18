@@ -1,0 +1,2314 @@
+{
+  "meta": {
+    "exported_at": "2026-07-18",
+    "source": "Munch Scout survey report",
+    "spot_count": 204,
+    "enriched_count": 66,
+    "notes": "enriched=true means zoned survey data with price/tags/hours. Raw spots (enriched=false) have name/coords/address only unless noted. hours is usually an object {daily: string} but one raw spot has a plain string. price_range uses peso signs except one raw spot with '1'."
+  },
+  "zones": [
+    {
+      "id": "54bea71b-d3e0-409a-abbc-1a04f7c4fc02",
+      "name": "Cubao",
+      "slug": "cubao",
+      "campus": "Cubao / Araneta",
+      "center_lat": 14.619,
+      "center_lng": 121.0617,
+      "radius_m": 1600
+    },
+    {
+      "id": "46a827b4-43f3-45b1-89fc-ffb5a9907a73",
+      "name": "NU - MOA",
+      "slug": "nu-moa",
+      "campus": "National University - Mall of Asia",
+      "center_lat": 14.530471,
+      "center_lng": 120.98103,
+      "radius_m": 2900
+    },
+    {
+      "id": "6ee0cac3-1dbd-47fd-83bd-3586afc8580b",
+      "name": "U-Belt / Sampaloc",
+      "slug": "u-belt",
+      "campus": "UST / Sampaloc",
+      "center_lat": 14.609,
+      "center_lng": 120.989,
+      "radius_m": 1800
+    },
+    {
+      "id": "d642ec7d-1f03-4fc5-908f-d6545223ef98",
+      "name": "UP Diliman",
+      "slug": "up-diliman",
+      "campus": "UP Diliman",
+      "center_lat": 14.6537,
+      "center_lng": 121.0687,
+      "radius_m": 2200
+    }
+  ],
+  "needs": [
+    { "slug": "barbecue", "label": "Barbecue" },
+    { "slug": "budget-meal", "label": "Budget Meal" },
+    { "slug": "coffee", "label": "Coffee" },
+    { "slug": "date-spot", "label": "Date Spot" },
+    { "slug": "inuman", "label": "Inuman" },
+    { "slug": "pastries", "label": "Pastries" },
+    { "slug": "samgyup", "label": "Samgyup" },
+    { "slug": "snack", "label": "Snack" },
+    { "slug": "study-spot", "label": "Place to Study" },
+    { "slug": "tiktok-trending", "label": "TikTok Trending" }
+  ],
+  "spots": [
+    {
+      "id": "70b8e1ea-9fe7-4587-8a87-c085f803299e",
+      "name": "7-Eleven Nagtahan (004)",
+      "category": "convenience store",
+      "price_range": "₱",
+      "lat": 14.600337,
+      "lng": 120.999351,
+      "address": "Jose Laurel St, Santa Mesa, Manila, 1008 Metro Manila",
+      "hours": { "daily": "24/7" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Solo",
+        "Late Night",
+        "Quick Bite",
+        "Rice Meal",
+        "Coffee",
+        "Merienda",
+        "Pastries"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "6c70f67a-564b-4aa9-8453-ae42c7666247",
+      "name": "7/11 - Legarda",
+      "category": "convenience store",
+      "price_range": "₱",
+      "lat": 14.5990038666505,
+      "lng": 120.990577009415,
+      "address": "Legarda St, Quiapo, Manila, 1001 Metro Manila",
+      "hours": { "daily": "24/7" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Silog/Tapsi",
+        "Rice Meal",
+        "Quick Bite",
+        "Merienda",
+        "Coffee",
+        "Pastries",
+        "Solo"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "6bdaaaae-2d20-45f8-9c85-ca4ce4ea57e9",
+      "name": "7/11 - San Beda",
+      "category": "convenience store",
+      "price_range": "₱",
+      "lat": 14.5985713882084,
+      "lng": 120.993561168454,
+      "address": "Concepcion Aguila St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Daily 12:00 AM–12:00 PM" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Silog/Tapsi",
+        "Rice Meal",
+        "Quick Bite",
+        "Merienda",
+        "Coffee",
+        "Pastries",
+        "Solo",
+        "Late Night"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "35ab2baa-4a15-4c44-b249-7e0b6804d20a",
+      "name": "7/11 0332 legarda 2",
+      "category": "convenience store",
+      "price_range": "₱",
+      "lat": 14.600688,
+      "lng": 120.995944,
+      "address": "M.F.Jhocson St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": { "daily": "24/7" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Solo",
+        "Quick Bite",
+        "Rice Meal",
+        "Merienda",
+        "Pastries",
+        "Late Night",
+        "Coffee"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "22cb8f75-ad5f-416a-a1a2-1f44d1fd74f3",
+      "name": "711 - Cayco",
+      "category": "convenience store",
+      "price_range": "₱",
+      "lat": 14.607094,
+      "lng": 120.992957,
+      "address": "765 Cayco, 765 Cayco St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": { "daily": "24/7" },
+      "vibe_tags": [
+        "Rice Meal",
+        "Budget Meal",
+        "Solo",
+        "Late Night",
+        "Coffee",
+        "Pastries",
+        "Quick Bite",
+        "Merienda"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "40f5c3aa-4e0c-4b00-abf9-f2f71cfb2918",
+      "name": "Ate Rica’s Bacsilog - Lumera Tower",
+      "category": "stall",
+      "price_range": "₱",
+      "lat": 14.600802,
+      "lng": 120.996693,
+      "address": "Lumera Tower, Legarda St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": [
+        "Budget Meal",
+        "Solo",
+        "Quick Bite",
+        "Rice Meal",
+        "Silog/Tapsi"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "3eb3e614-c8ba-4131-a56a-7b830ef0cc2d",
+      "name": "Ate Rica’s Bacsilog - San Beda",
+      "category": "stall",
+      "price_range": null,
+      "lat": 14.5986343350318,
+      "lng": 120.994049730102,
+      "address": "1st Street",
+      "hours": null,
+      "vibe_tags": ["Silog/Tapsi", "Budget Meal", "Rice Meal", "Solo"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "c22b3624-e811-4abf-90be-93695307d080",
+      "name": "Bigz Burger",
+      "category": "stall",
+      "price_range": "₱",
+      "lat": 14.5991923995642,
+      "lng": 120.995747235635,
+      "address": "504 5th St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Sun 12pm-11pm" },
+      "vibe_tags": ["Budget Meal", "Solo", "Quick Bite", "Merienda", "Barkada"],
+      "has_wifi": false,
+      "has_sockets": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "b1065f67-d160-42c5-b9d4-70910f212925",
+      "name": "BingChun",
+      "category": "stall",
+      "price_range": null,
+      "lat": 14.598813,
+      "lng": 120.99389,
+      "address": "HXXV+GHM, 1st St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": [],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "6dc8dd9f-65f1-4f5b-95ca-033969f63a9c",
+      "name": "BITESLICE CAFÉ",
+      "category": null,
+      "price_range": null,
+      "lat": 14.606875,
+      "lng": 120.992202,
+      "address": "1394 Loyola St, Sampaloc, Manila, 1015 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Late Night", "Coffee", "Merienda", "Rice Meal", "Barkada"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "167bdce0-ef4d-4334-af58-a057d7dc7dcf",
+      "name": "BRB - Bau's Rice Bowls Nagtahan",
+      "category": "resto",
+      "price_range": "₱₱",
+      "lat": 14.5996608189007,
+      "lng": 120.998794567094,
+      "address": "StartHub, 395 Adela, San Miguel, Manila, 1005 Metro Manila",
+      "hours": { "daily": "Mon-Sun 9am-12mn" },
+      "vibe_tags": [
+        "Barkada",
+        "Solo",
+        "Late Night",
+        "Rice Meal",
+        "Budget Meal"
+      ],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "0968a708-39e6-4523-af96-75af98b321bc",
+      "name": "But First, Coffee (BFC) - Legarda",
+      "category": "cafe",
+      "price_range": "₱₱",
+      "lat": 14.600787,
+      "lng": 120.996655,
+      "address": "G/F Food Park, JX2W+9M8 Lumera Tower Condominium, Legarda St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Thu 9am-9pm, Fri-Sat 9am-9:30pm, Sun 11am-8pm" },
+      "vibe_tags": ["Study Spot", "Solo", "Pastries", "Coffee", "Late Night"],
+      "has_sockets": true,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "830df899-ae96-4f12-bbc6-5fe21447e3cc",
+      "name": "Carmelo’s",
+      "category": "cafe",
+      "price_range": "₱₱",
+      "lat": 14.5970078508114,
+      "lng": 120.991820924563,
+      "address": "Abreu St",
+      "hours": { "daily": "Mon-Sat 7am-12mn, Sun 3pm-12mn" },
+      "vibe_tags": ["Study Spot", "Solo", "Late Night", "Coffee", "Pastries"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "d6773099-357d-4a9a-8386-abc77a1a46bf",
+      "name": "Carmelo’s - Legarda",
+      "category": "cafe",
+      "price_range": "₱₱",
+      "lat": 14.600648,
+      "lng": 120.996208,
+      "address": "2585 Legarda St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Sat 9am-12am, Sun 2pm-12am" },
+      "vibe_tags": ["Coffee", "Pastries", "Merienda"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "33b43bff-c610-4ec6-91f6-080c49c66ef8",
+      "name": "Cheerful Brews",
+      "category": "cafe",
+      "price_range": "₱₱",
+      "lat": 14.598902,
+      "lng": 120.995348,
+      "address": "Mendiola, 4th Street, Cor Concepcion Aguila St, San Miguel, Manila, 1005 Metro Manila",
+      "hours": { "daily": "Mon-Fri 9am-8pm, Sat 11am-6pm" },
+      "vibe_tags": [
+        "Study Spot",
+        "Solo",
+        "Coffee",
+        "Pastries",
+        "Merienda",
+        "Barkada"
+      ],
+      "has_wifi": true,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "346cf9a3-0b55-4cab-bcb5-141b40b3452d",
+      "name": "Chick Chicken - Recto",
+      "category": null,
+      "price_range": "₱₱",
+      "lat": 14.601925,
+      "lng": 120.988054,
+      "address": "Recto Ave, Loyola St, Sampaloc, Manila, Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Rice Meal", "Barkada"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "8a59fc09-9db5-4798-9c2e-6dbbfbb5b171",
+      "name": "Chowking - Legarda",
+      "category": "fast food",
+      "price_range": "₱₱",
+      "lat": 14.601675,
+      "lng": 120.99287,
+      "address": "Figueras St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": { "daily": "24/7" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Solo",
+        "Rice Meal",
+        "Quick Bite",
+        "Merienda",
+        "Late Night"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "13235eba-849e-4a85-a82b-01e28134c1dc",
+      "name": "Chubby Bread Bakery",
+      "category": "bakery",
+      "price_range": "₱",
+      "lat": 14.5994301652768,
+      "lng": 120.998163015068,
+      "address": "1706 Jose Laurel St, San Miguel, Manila, 1005 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Merienda", "Pastries"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "143a146a-f7f7-4908-a8ea-1117cf4d797e",
+      "name": "cosina ‘D",
+      "category": "karinderya",
+      "price_range": null,
+      "lat": 14.60131,
+      "lng": 120.994052,
+      "address": "Legarda St, Sampaloc, Manila, 1008 Metro Manila JX2V+GJJ, Legarda St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Solo", "Rice Meal"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "24f0b92d-20c0-44a5-bd63-c98f926fd8c1",
+      "name": "Cram Cafe",
+      "category": "cafe",
+      "price_range": "₱₱",
+      "lat": 14.5985408153409,
+      "lng": 120.993519652548,
+      "address": "1523 Concepcion Aguila St, San Miguel, Manila City, 1005 Metro Manila",
+      "hours": { "daily": "Mon-Sat 9am-9pm" },
+      "vibe_tags": [
+        "Study Spot",
+        "Solo",
+        "Coffee",
+        "Late Night",
+        "Pastries",
+        "Silog/Tapsi",
+        "Rice Meal",
+        "Aesthetic/Cozy"
+      ],
+      "has_wifi": true,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "19ee57b9-8eb6-494b-af80-816544ad2732",
+      "name": "Crazy Curry - Legarda",
+      "category": "resto",
+      "price_range": "₱₱",
+      "lat": 14.6017270616231,
+      "lng": 120.993175328646,
+      "address": "2327 Legarda St, Sampaloc, Manila, 1015 Metro Manila",
+      "hours": { "daily": "Mon-Sun 10am-9pm" },
+      "vibe_tags": ["Rice Meal", "Barkada", "Solo"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "68121709-c164-4369-a7ec-ebe35fcb9edd",
+      "name": "Dunkin’ Legarda",
+      "category": "cafe",
+      "price_range": "₱",
+      "lat": 14.601798401517,
+      "lng": 120.992468866172,
+      "address": "Stall 174, Bustillos, Sampaloc Market, corner Legarda St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Sun 6am-10pm" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Study Spot",
+        "Barkada",
+        "Solo",
+        "Late Night",
+        "Coffee",
+        "Merienda",
+        "Quick Bite",
+        "Pastries"
+      ],
+      "has_wifi": false,
+      "has_sockets": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "34b4a0b7-76f7-456c-be38-3c538082a353",
+      "name": "Gember’s Canteen",
+      "category": "karinderya",
+      "price_range": "₱",
+      "lat": 14.607427,
+      "lng": 120.992714,
+      "address": "Cayco, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": [
+        "Budget Meal",
+        "Rice Meal",
+        "Late Night",
+        "Solo",
+        "Silog/Tapsi"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "2c120b43-2df7-4492-8032-ca4fa3167616",
+      "name": "Hadouken - Casual Japanese Dining San Beda",
+      "category": "stall",
+      "price_range": "₱",
+      "lat": 14.598619,
+      "lng": 120.99397,
+      "address": "First strip Mendiola, First st, corner Concepcion Aguila St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Solo", "Rice Meal", "Quick Bite"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "76383bcf-5b67-4a0b-ac09-d7e566d0cf02",
+      "name": "High Tea",
+      "category": "cafe",
+      "price_range": "₱",
+      "lat": 14.597548,
+      "lng": 120.995349,
+      "address": "1443 Jose Laurel St, San Miguel, Manila, 1005 Metro Manila",
+      "hours": {
+        "daily": "Mon-Wed 11am-9pm, Thu 9am-10pm, Fri 11am-9pm, Sat 11pm-12am, Sun 12am-8:30pm"
+      },
+      "vibe_tags": ["Coffee"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "b6a8e1e1-c942-4376-9e2a-e4b04bdb8153",
+      "name": "Janet’s Canteen",
+      "category": null,
+      "price_range": "₱",
+      "lat": 14.607374,
+      "lng": 120.991797,
+      "address": "833 M.F. Jhocson, Sampaloc, Manila, 1015 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Solo", "Rice Meal"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "05a5f847-91e0-4511-bd45-421f32fa34aa",
+      "name": "Jollibee - Legarda Bustillos",
+      "category": "fast food",
+      "price_range": "₱₱",
+      "lat": 14.6014187936751,
+      "lng": 120.992817293436,
+      "address": "Legarda St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": { "daily": "24/7" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Solo",
+        "Barkada",
+        "Quick Bite",
+        "Rice Meal",
+        "Coffee",
+        "Merienda"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "a19308ea-36e2-4508-ab64-208eecf86f7e",
+      "name": "K-Egg",
+      "category": "stall",
+      "price_range": null,
+      "lat": 14.598633,
+      "lng": 120.993974,
+      "address": "1531 Concepcion Aguila St, Barangay 638, San Miguel, Manila, 1005 Metro Manila",
+      "hours": null,
+      "vibe_tags": [],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "9a06496d-5837-4d3e-9843-44fc6259fad4",
+      "name": "Kaldi Coffee Mendiola",
+      "category": "cafe",
+      "price_range": "₱₱",
+      "lat": 14.5990422175267,
+      "lng": 120.994245095748,
+      "address": "Doña Carmen, Building, 2 2nd St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": [
+        "Study Spot",
+        "Solo",
+        "Barkada",
+        "Coffee",
+        "Milk Tea/Boba",
+        "Rice Meal",
+        "Merienda",
+        "Pastries",
+        "Aesthetic/Cozy",
+        "Late Night"
+      ],
+      "has_wifi": true,
+      "has_sockets": true,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "d7ae942c-d463-4498-850a-f9afb07f9d98",
+      "name": "Kenny Rogers Roasters - Delco Manila",
+      "category": "resto",
+      "price_range": "₱₱₱",
+      "lat": 14.598083,
+      "lng": 120.99637,
+      "address": "First Residences, Jose Laurel St, San Miguel, Manila, Metro Manila",
+      "hours": { "daily": "Daily 12:00 AM–11:59 PM" },
+      "vibe_tags": ["Barkada", "Solo", "Late Night", "Rice Meal", "Merienda"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "59465a68-3158-4095-8598-63ba3261e63c",
+      "name": "KFC - Nagtahan",
+      "category": "fast food",
+      "price_range": "₱₱",
+      "lat": 14.600028,
+      "lng": 120.999645,
+      "address": "2921 De Ocampo Memorial Schools Nagtahan St., Sta.Mesa, Brgy, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "24/7" },
+      "vibe_tags": ["Solo", "Rice Meal", "Quick Bite", "Merienda"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "feb3076e-fd39-4160-b89c-0af6e2028ed7",
+      "name": "Kit-Kit’s Carinderia",
+      "category": "karinderya",
+      "price_range": "₱",
+      "lat": 14.598953,
+      "lng": 120.994388,
+      "address": "506 2nd St, San Miguel, Manila, 1005 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Rice Meal"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "3a29d0af-8845-43d8-a4d4-4ce7ac534aae",
+      "name": "KOHI ZUKI",
+      "category": "cafe",
+      "price_range": "₱",
+      "lat": 14.5981253017684,
+      "lng": 120.991652246508,
+      "address": "Concepcion Aguila St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon–Sat 8:00 AM–6:00 PM" },
+      "vibe_tags": ["Solo", "Barkada", "Coffee", "Pastries", "Merienda"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "5162fb82-d093-49d9-917a-720907afefa8",
+      "name": "Linda-Grethen Eatery",
+      "category": "karinderya",
+      "price_range": "₱",
+      "lat": 14.596989,
+      "lng": 120.991623,
+      "address": "Abreu St",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Rice Meal"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "2551fffc-34ca-497a-82ea-42d0ca95c50d",
+      "name": "Madison Karinderya",
+      "category": "karinderya",
+      "price_range": "₱",
+      "lat": 14.597637,
+      "lng": 120.991704,
+      "address": "San Rafael St, in front of V. Mapa High School",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Rice Meal"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "d610edce-9561-4014-826d-b115816d628a",
+      "name": "MAFE Coffee House",
+      "category": "cafe",
+      "price_range": "₱₱",
+      "lat": 14.5994646356896,
+      "lng": 120.994358806862,
+      "address": "534a 2nd St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Sat 9am-9pm" },
+      "vibe_tags": [
+        "Study Spot",
+        "Coffee",
+        "Solo",
+        "Merienda",
+        "Barkada",
+        "Pastries",
+        "Silog/Tapsi",
+        "Rice Meal"
+      ],
+      "has_wifi": true,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "b25dbd2e-ed3b-4d82-83c6-8331159ebaf5",
+      "name": "Master Buffalo Legarda",
+      "category": "resto",
+      "price_range": "₱₱",
+      "lat": 14.600983,
+      "lng": 120.994084,
+      "address": "2438 Legarda St, Sampaloc, Manila, 1015 Metro Manila",
+      "hours": { "daily": "Mon-Sun 10am-10pm" },
+      "vibe_tags": ["Barkada", "Solo", "Rice Meal"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "93fe2a46-157a-4ef2-96bb-147660c97099",
+      "name": "Max’s Restaurant",
+      "category": "resto",
+      "price_range": "₱₱₱",
+      "lat": 14.599289,
+      "lng": 120.99775,
+      "address": "1658 Jose Laurel St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Sun 7am-10pm" },
+      "vibe_tags": [
+        "Solo",
+        "Merienda",
+        "Rice Meal",
+        "Late Night",
+        "Pastries",
+        "Barkada",
+        "Date Spot"
+      ],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "8d9c4bf2-5ff8-4199-b96c-7d0f8c8ae973",
+      "name": "McDonald’s - Mendiola",
+      "category": "fast food",
+      "price_range": "₱₱",
+      "lat": 14.5980628898193,
+      "lng": 120.99303662959,
+      "address": "La Residencia 2, 8 Mendiola St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Daily 12:00 AM–12:00 PM" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Barkada",
+        "Solo",
+        "Late Night",
+        "Quick Bite",
+        "Rice Meal",
+        "Coffee",
+        "Merienda"
+      ],
+      "has_wifi": true,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "5cea9e9d-b583-4c58-9e92-0ff5f84ebbad",
+      "name": "Mendiola’s - Malacañang",
+      "category": "resto",
+      "price_range": "₱₱₱",
+      "lat": 14.597573,
+      "lng": 120.995362,
+      "address": "HXXW+25J, Jose Laurel St, San Miguel, Manila, 1005 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Rice Meal", "Barkada"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "183bdff8-2319-4ae6-9bc6-0fac5d0586e1",
+      "name": "Mo-Jacko Donut",
+      "category": "bakery",
+      "price_range": "₱",
+      "lat": 14.60168,
+      "lng": 120.992639,
+      "address": "Zone 041, Unnumbered Cooked Food Section, Sampaloc Market, Stall No, Barangay 402, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": [
+        "Budget Meal",
+        "Solo",
+        "Quick Bite",
+        "Merienda",
+        "Pastries"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "9ae5da3f-adba-406b-839b-199b5f0f6173",
+      "name": "MOJACKO KAPE-TEA-RIA",
+      "category": "stall",
+      "price_range": "₱",
+      "lat": 14.601681,
+      "lng": 120.992505,
+      "address": "Zone 041, Unnumbered Cooked Food Section, Sampaloc Market, Stall No, Barangay 402, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Solo", "Budget Meal", "Milk Tea/Boba"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "352b9be6-d5f5-4029-b93b-df54a248b532",
+      "name": "N’Matcha Cafe",
+      "category": "resto",
+      "price_range": "₱₱",
+      "lat": 14.601607,
+      "lng": 120.992965,
+      "address": "2327 Legarda St, Sampaloc, Manila, 1015 Metro Manila",
+      "hours": { "daily": "Mon-Sun 10am-2am" },
+      "vibe_tags": [
+        "Barkada",
+        "Coffee",
+        "Rice Meal",
+        "Merienda",
+        "Pastries",
+        "Late Night"
+      ],
+      "has_wifi": true,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "ae71b6c7-d45f-4df8-9dd2-c6cd094cd6aa",
+      "name": "Nine Eleven Coffee House",
+      "category": "cafe",
+      "price_range": "₱₱",
+      "lat": 14.5983435211355,
+      "lng": 120.99664271286,
+      "address": "BFB Building 1575 JP Laurel St, Corner Matienza, Manila, 1005 Metro Manila",
+      "hours": { "daily": "Mon-Sat 10am-9pm, Sun closed" },
+      "vibe_tags": [
+        "Coffee",
+        "Quick Bite",
+        "Merienda",
+        "Pastries",
+        "Rice Meal",
+        "Solo",
+        "Barbecue",
+        "Barkada"
+      ],
+      "has_wifi": true,
+      "has_sockets": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "a2b6d7b7-254f-42f2-8d55-12a63378a215",
+      "name": "Oh MAMA",
+      "category": "resto",
+      "price_range": "₱",
+      "lat": 14.5986493150145,
+      "lng": 120.99407965822,
+      "address": "1520 Concepcion Aguila Street, 1st St, San Miguel, Manila, Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Rice Meal"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "8a9abc47-007a-44d0-a205-c1f8b82a5d1a",
+      "name": "Paddlers Den Cafe",
+      "category": "cafe",
+      "price_range": "₱",
+      "lat": 14.5988020676317,
+      "lng": 120.993928149686,
+      "address": "1st St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Fri 8AM-9PM, Sat 7AM-8PM, Sun Closed" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Coffee",
+        "Rice Meal",
+        "Merienda",
+        "Pastries"
+      ],
+      "has_sockets": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "ed0c7cfb-d88c-4dc8-9199-fa34c2c78f86",
+      "name": "Perico’s",
+      "category": "resto",
+      "price_range": "₱",
+      "lat": 14.5985221898325,
+      "lng": 120.993464780151,
+      "address": "Concepcion Aguila St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon–Fri 8:00 AM–6:00 PM" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Barkada",
+        "Solo",
+        "Barbecue",
+        "Rice Meal",
+        "Silog/Tapsi"
+      ],
+      "has_wifi": false,
+      "has_sockets": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "41cca21d-63b2-4f46-8a68-5c0efb5bd116",
+      "name": "Pickup Coffee - First Residences",
+      "category": "cafe",
+      "price_range": "₱",
+      "lat": 14.5980890768578,
+      "lng": 120.996448559743,
+      "address": "Jose Laurel St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Sun 7am-10pm" },
+      "vibe_tags": ["Study Spot", "Solo", "Late Night", "Coffee", "Pastries"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "b6ed50a6-6c64-4e95-bc13-1c45d4f43efd",
+      "name": "Pickup Coffee - Legarda Place",
+      "category": "stall",
+      "price_range": "₱",
+      "lat": 14.6016209419369,
+      "lng": 120.993157028748,
+      "address": "2327 Legarda St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Sun 7am-8pm" },
+      "vibe_tags": ["Solo", "Coffee"],
+      "has_wifi": false,
+      "has_sockets": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "6254b72f-f2e6-489a-bfcb-0128a1aef08c",
+      "name": "Potato Corner - San Miguel Manila",
+      "category": "stall",
+      "price_range": "₱",
+      "lat": 14.598652,
+      "lng": 120.993998,
+      "address": "First strip Mendiola, First st, corner Concepcion Aguila St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Solo", "Quick Bite", "Merienda", "Barbecue"],
+      "has_wifi": false,
+      "has_sockets": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "80e6e870-ec3e-4260-abca-4fb4912bd538",
+      "name": "RFS - Rice Fries Sip",
+      "category": "stall",
+      "price_range": null,
+      "lat": 14.598711,
+      "lng": 120.994025,
+      "address": "First strip Mendiola, First st, corner Concepcion Aguila St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": [],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "e2cccd5e-de28-4c50-8531-b1d345a5f846",
+      "name": "Sisig Xpress",
+      "category": "stall",
+      "price_range": "₱",
+      "lat": 14.598817,
+      "lng": 120.993999,
+      "address": "First strip Mendiola, First st, corner Concepcion Aguila St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Solo", "Quick Bite", "Rice Meal"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "b6ec47b4-ef2d-4094-a674-5c3175c40177",
+      "name": "Starbucks - La Consolacion College Manila",
+      "category": "cafe",
+      "price_range": "₱₱",
+      "lat": 14.597912,
+      "lng": 120.993145,
+      "address": "La Consolacion College, 8 Mendiola St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Fri 6:30am-9pm, Sat 7:30am-9pm, Sun 8am-9pm" },
+      "vibe_tags": [
+        "Study Spot",
+        "Late Night",
+        "Barkada",
+        "Solo",
+        "Coffee",
+        "Merienda",
+        "Pastries"
+      ],
+      "has_wifi": true,
+      "has_sockets": true,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "e039c6fc-37c8-4cfa-86d3-c6323a181c47",
+      "name": "Tapsi sa Kanto Cinco",
+      "category": "karinderya",
+      "price_range": "₱",
+      "lat": 14.600101,
+      "lng": 120.995419,
+      "address": "559 5th St, San Miguel, Manila, 1005 Metro Manila",
+      "hours": null,
+      "vibe_tags": [
+        "Budget Meal",
+        "Barkada",
+        "Solo",
+        "Merienda",
+        "Rice Meal",
+        "Quick Bite"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "ff02a407-a9d8-4b1a-a131-736ae08ff492",
+      "name": "Tayo Cafe Malacañang",
+      "category": "cafe",
+      "price_range": "₱",
+      "lat": 14.59909,
+      "lng": 120.997773,
+      "address": "1658 Jose Laurel St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Barkada", "Solo", "Rice Meal", "Merienda"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "02981c81-5d90-4ad8-8fc7-9a8d89dda519",
+      "name": "Tender Juicy Hotdog - Malacañang",
+      "category": "stall",
+      "price_range": "₱",
+      "lat": 14.597473,
+      "lng": 120.99525,
+      "address": "1443 Jose Laurel St, San Miguel, Manila, 1005 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Solo", "Barkada", "Quick Bite", "Merienda"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "8bc6db9f-110b-482f-8fcc-0bfa070999d2",
+      "name": "The 5th Cafe",
+      "category": "cafe",
+      "price_range": "₱₱",
+      "lat": 14.5996090389625,
+      "lng": 120.995525757713,
+      "address": "5th St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Sat 11am-11pm" },
+      "vibe_tags": [
+        "Pastries",
+        "Rice Meal",
+        "Coffee",
+        "Merienda",
+        "Barkada",
+        "Solo",
+        "Study Spot",
+        "Silog/Tapsi",
+        "Aesthetic/Cozy",
+        "Late Night"
+      ],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "d786a028-3d61-4428-abd8-9022b14c7a5d",
+      "name": "the lion’s den",
+      "category": "stall",
+      "price_range": "₱",
+      "lat": 14.598676,
+      "lng": 120.993973,
+      "address": "First strip Mendiola, First st, corner Concepcion Aguila St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Solo", "Rice Meal", "Quick Bite"],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "f67c13d3-31aa-4f9d-a54e-723e4d14960e",
+      "name": "TOMO coffee - adela",
+      "category": "cafe",
+      "price_range": "₱",
+      "lat": 14.5996630108155,
+      "lng": 120.998791645601,
+      "address": "395 Adela, San Miguel, Manila, 1008 Metro Manila",
+      "hours": { "daily": "Mon-Sun 9am-12mn" },
+      "vibe_tags": ["Study Spot", "Solo", "Late Night", "Coffee"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "a1b9992b-3b67-4f7a-b76a-4d9557525e9c",
+      "name": "Uncle John’s - Cayco",
+      "category": "convenience store",
+      "price_range": "₱",
+      "lat": 14.607397,
+      "lng": 120.992914,
+      "address": "Loyola St, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": { "daily": "24/7" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Rice Meal",
+        "Quick Bite",
+        "Merienda",
+        "Coffee",
+        "Pastries",
+        "Late Night",
+        "Solo"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "9e6d8ad9-c484-4563-9c18-3873cb1cc8f5",
+      "name": "Uncle John’s - Legarda",
+      "category": "convenience store",
+      "price_range": "₱",
+      "lat": 14.60149,
+      "lng": 120.993482,
+      "address": "Legarda Street, Manrique, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": { "daily": "24/7" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Solo",
+        "Quick Bite",
+        "Late Night",
+        "Rice Meal",
+        "Merienda",
+        "Pastries"
+      ],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "e2c28ecc-26d6-4b03-a9e8-82600d80334c",
+      "name": "Uncle John’s - Malacañang",
+      "category": "convenience store",
+      "price_range": "₱",
+      "lat": 14.5979787180745,
+      "lng": 120.996508904919,
+      "address": "Dr. Jose, P. Laurel Sr, San Miguel, Manila, Metro Manila",
+      "hours": { "daily": "Daily 12:00 AM–12:00 PM" },
+      "vibe_tags": [
+        "Budget Meal",
+        "Merienda",
+        "Coffee",
+        "Late Night",
+        "Pastries",
+        "Quick Bite"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "b7f01820-b6a2-46cd-9523-5ce991a8f000",
+      "name": "Unobon Pares",
+      "category": "karinderya",
+      "price_range": "₱",
+      "lat": 14.6017,
+      "lng": 120.992516,
+      "address": "Legarda St, Sampaloc, Manila, Metro Manila",
+      "hours": null,
+      "vibe_tags": [
+        "Budget Meal",
+        "Rice Meal",
+        "Barkada",
+        "Solo",
+        "Late Night"
+      ],
+      "has_wifi": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "a8bd1099-df92-4157-996a-058d61d5c2b1",
+      "name": "Vincent’s Place",
+      "category": "karinderya",
+      "price_range": "₱₱₱",
+      "lat": 14.599508,
+      "lng": 120.997879,
+      "address": "1787-A Concepcion Aguila St, San Miguel, Manila, 1005 Metro Manila",
+      "hours": { "daily": "Mon-Sat 9am-8pm, Sun closed" },
+      "vibe_tags": ["Barkada", "Barbecue", "Inuman", "Late Night"],
+      "has_sockets": false,
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "3d5db5c4-808e-45fe-8aaa-4c4009ffbd77",
+      "name": "Yanna Lorraine’s Dinner (Green Place Diner)",
+      "category": null,
+      "price_range": "₱",
+      "lat": 14.60743,
+      "lng": 120.991656,
+      "address": "835 M.F. Jhocson, Sampaloc, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Solo", "Rice Meal"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "b8f850e2-d0a4-46f1-8173-c61e59021922",
+      "name": "Yogs Canteen",
+      "category": "karinderya",
+      "price_range": "₱",
+      "lat": 14.599496190238,
+      "lng": 120.997691878959,
+      "address": "1779 Concepcion Aguila St, San Miguel, Manila, 1008 Metro Manila",
+      "hours": null,
+      "vibe_tags": ["Budget Meal", "Rice Meal", "Solo"],
+      "zone_slug": "u-belt",
+      "enriched": true
+    },
+    {
+      "id": "cc0ab007-0390-4321-96d5-462c7c5b49fe",
+      "name": "00:00 Cafe",
+      "lat": 14.60527102,
+      "lng": 120.9900995,
+      "address": "Unit 1211A S.H.loyola St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "23ad2431-b37a-465b-9e56-690eecbaad28",
+      "name": "0402 Coffee",
+      "lat": 14.61233531,
+      "lng": 120.9916308,
+      "address": "1060 Dos Castillas St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "4a1a6315-b3b9-4609-9121-b06f39b6628f",
+      "name": "1871 Cafe",
+      "lat": 14.6135183,
+      "lng": 120.996694,
+      "address": "1871 Espana, Cor Quintos Sr. St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "214e2efe-1047-407a-8de8-f42169de268f",
+      "name": "24 Chicken P. Noval-Dapitan UST",
+      "lat": 14.60967257,
+      "lng": 120.9865294,
+      "address": "1173 Padre Noval St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "4d1ff022-b86f-4422-bff2-6e8a1fff277d",
+      "name": "7/11 - Dapitan Convenience Store",
+      "lat": 14.61273097,
+      "lng": 120.9892626,
+      "address": "1521 Dapitan St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "82cb36bb-bc97-46a1-a937-5ff73f5d57fd",
+      "name": "7/11 - P.Noval Convenience Store",
+      "lat": 14.60831145,
+      "lng": 120.9878458,
+      "address": "465 Zone 46, Sampaloc, Manila, 1008, 1051 Padre Noval Street",
+      "enriched": false
+    },
+    {
+      "id": "a8d27631-88ef-444b-8bf7-65e69e23133a",
+      "name": "Acustica By Dantes",
+      "lat": 14.60920231,
+      "lng": 120.9925143,
+      "address": "2nd floor, Didache Building, #1508 España Boulevard, corner Valencia, Sampaloc, Manila, Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "7cc78011-99aa-4aef-9b1a-cc8bf79a5ddc",
+      "name": "AJ Takoyaki Express",
+      "lat": 14.61091415,
+      "lng": 120.9852198,
+      "address": "JX5Q-49P, Padre Noval St, Sampaloc, Manila",
+      "enriched": false
+    },
+    {
+      "id": "f4545686-7cdd-4ccf-b53a-ec37f85d4ef4",
+      "name": "Al Jograts Persian Grill",
+      "lat": 14.61266254,
+      "lng": 120.9881788,
+      "address": "1226-A Concepcion St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "f0208b82-603a-422d-a987-c8c2f9944866",
+      "name": "Albeth Bakehouse",
+      "lat": 14.6084167,
+      "lng": 120.9869908,
+      "address": "1206 J. Barlin Street, Sampaloc. Manila",
+      "vibe_tags": ["Gym Bro Approved"],
+      "enriched": false
+    },
+    {
+      "id": "27e3094c-963c-4187-ad5d-27f6cc675093",
+      "name": "Angelica's - The Best Dinakdakan in Town",
+      "lat": 14.61376951,
+      "lng": 120.9903729,
+      "address": "Zone 48, 489 Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "164c1a94-49be-4656-ac3a-c918f9f26621",
+      "name": "Angkong Dimsum House",
+      "lat": 14.61278642,
+      "lng": 120.9887144,
+      "address": "JX7Q+3FP, Gelinos St, Santa Cruz, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "978c2ccf-9426-49c2-852f-2c6431e9b99f",
+      "name": "Asiamix Diner",
+      "lat": 14.60653908,
+      "lng": 120.989585,
+      "address": "1250 DB Bldg, 1015 España Blvd, Sampaloc, Manila, Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "99b39efe-4c60-4be3-905b-59510b62cbcd",
+      "name": "Ate Rica's Bacsilog",
+      "lat": 14.6101192,
+      "lng": 120.990459,
+      "address": "1st Floor, UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "ade310e7-ea6b-4b09-9204-74635db97b49",
+      "name": "BaaBaa Thai Tea",
+      "lat": 14.61146204,
+      "lng": 120.9876684,
+      "address": "Zone 046, 1353 Dapitan Street, corner Rosarito St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "f1f1a5da-4696-4330-b416-3ba588f5324b",
+      "name": "Batang 9Tea’s Restaurant",
+      "lat": 14.61233942,
+      "lng": 120.9873355,
+      "address": "Unit 1N Fusebox Building, 1254-1258 Asturias St. Zone 046, Barangay 471 District 46, Sampaloc, Manila, Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "c62fb1d2-4695-40be-8a0a-97c7d1d8e6e0",
+      "name": "Belden Unlimited Wings and Rice",
+      "lat": 14.60787097,
+      "lng": 120.9878216,
+      "address": "1012 Tolentino St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "e2c0a2ed-fb88-487f-a233-302e5158dc90",
+      "name": "BlackPig Korean Grill House",
+      "lat": 14.6120742,
+      "lng": 120.9867238,
+      "address": "1362 Laong Laan Rd, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "0048ed7a-3ec1-4ef4-876b-59a02314e252",
+      "name": "Bok's Chicken",
+      "lat": 14.61219968,
+      "lng": 120.9873892,
+      "address": "1245 Asturias St., Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "6994babc-f158-4013-98cc-569fd7a738b0",
+      "name": "Bonchon Chicken",
+      "lat": 14.61022302,
+      "lng": 120.9906844,
+      "address": "2nd Floor, UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "9a9920d9-ac66-4a49-8eb6-fcaf379df748",
+      "name": "Boss Samgy Espanya",
+      "lat": 14.61419612,
+      "lng": 120.9979796,
+      "address": "Sampaloc, Unit 1, Ground Floor, Ortiz Luis Building, España Boulevard, corner Maceda St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "ecfc37ff-64d9-44f3-8e87-bbb990154c7c",
+      "name": "Brunchee",
+      "lat": 14.61171862,
+      "lng": 120.9878587,
+      "address": "3/F 1210 Asturias St. Sampaloc Manila",
+      "vibe_tags": ["Petsa de Peligro", "Pang-Bulking"],
+      "enriched": false
+    },
+    {
+      "id": "10857ce3-c84e-42db-995e-a3ed946212a2",
+      "name": "Bulalohan sa España",
+      "lat": 14.61605056,
+      "lng": 121.0001192,
+      "address": "España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "2f3dd49e-6ae6-421d-9f33-5e476e49dce9",
+      "name": "Bully Buffalo",
+      "lat": 14.61225932,
+      "lng": 120.9881481,
+      "address": "1219 V Concepcion St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "c77a9902-89d3-43a8-8254-4da689daf97e",
+      "name": "Calle Cafe by Don Gabriel",
+      "lat": 14.61116808,
+      "lng": 120.9875776,
+      "address": "1343 Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "fc4cba45-2821-4f4c-b454-454f2a8dcb7a",
+      "name": "Cely’s Canteen",
+      "lat": 14.61271192,
+      "lng": 120.9878882,
+      "address": "1242 Concepcion St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "ebabdeb3-21e7-4111-8e8c-9edc7d155209",
+      "name": "Chat’s Pancitan sa Dapitan",
+      "lat": 14.61369551,
+      "lng": 120.9903263,
+      "address": "1601 Dapitan Street Sampaloc Manila, 489 Zone 48, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "579d6d8f-dd2e-4f33-8d2f-45cff6b33b61",
+      "name": "Chew York",
+      "lat": 14.61207695,
+      "lng": 120.9874856,
+      "address": "1235 Asturias Street, Sampaloc, Manila",
+      "enriched": false
+    },
+    {
+      "id": "2a4d7c79-ef99-43b9-9b8c-f86e4ab74c17",
+      "name": "Chie’s Burger",
+      "lat": 14.60618518,
+      "lng": 120.9955045,
+      "address": "1515 F. jhocson st. sampaloc manila, Manila, Philippines",
+      "enriched": false
+    },
+    {
+      "id": "5326873e-c67c-4d8c-996b-0374a4583750",
+      "name": "Chomp Chomp Asian Street Food",
+      "lat": 14.56519414,
+      "lng": 120.9950958,
+      "address": "2450 2F Bellagio Residence, Leon Guinto cor Estrada Streets, Malate Manila, Manila, Philippines",
+      "enriched": false
+    },
+    {
+      "id": "7b345579-b8c7-412f-82dd-9503db97583d",
+      "name": "Chowking",
+      "lat": 14.61053601,
+      "lng": 120.9904923,
+      "address": "UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "47e1048e-e043-4943-8f3a-7e09e4ef5a08",
+      "name": "Clyde’s Bread and Pastries",
+      "lat": 14.60546825,
+      "lng": 120.9888297,
+      "address": "JX4Q+5G9, Padre Campa St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "8b82ab31-6736-4a93-b97b-576c291c0720",
+      "name": "Coffeepages",
+      "lat": 14.60896538,
+      "lng": 120.9872473,
+      "address": "1233 J Barlin St, Sampaloc, Manila, 1015 Metro Manila",
+      "vibe_tags": ["Study Friendly"],
+      "enriched": false
+    },
+    {
+      "id": "11bec294-3a69-4cac-b3d3-23c94bb0266e",
+      "name": "COW WOW Sausage Haus",
+      "lat": 14.60707644,
+      "lng": 120.9890271,
+      "address": "937 Padre Noval St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "171bdfd9-1033-4eff-a5c7-b7cf6ed94085",
+      "name": "Cozy Nook",
+      "lat": 14.61065562,
+      "lng": 120.9905889,
+      "address": "UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "01075d9c-922f-46de-90dc-92a842c19f5f",
+      "name": "D’ Master ChaoLong Haus",
+      "lat": 14.61279595,
+      "lng": 120.9959308,
+      "address": "1831 España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "c623506f-3c9f-4489-99db-a6f8c6a4d8a5",
+      "name": "D’Cream Coffee and Tea",
+      "lat": 14.60710177,
+      "lng": 120.9889842,
+      "address": "955, 1015 Padre Noval St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "b3adec76-2eb7-4b6d-8a02-9240ee81f3fc",
+      "name": "D’Lax Pancit Batil Patong and Eatery",
+      "lat": 14.61157399,
+      "lng": 120.9923586,
+      "address": "1560 Florentino St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "a8dbceaa-a8b4-4b3e-ab31-3cc6a6968539",
+      "name": "dimsum treats",
+      "lat": 14.61063397,
+      "lng": 120.9870032,
+      "address": "cor Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+      "price_range": "1",
+      "hours": "9:30AM - 12AM",
+      "vibe_tags": ["Petsa de Peligro"],
+      "enriched": false
+    },
+    {
+      "id": "2d97695e-128f-4a75-9371-969b8e24133f",
+      "name": "Dominique’s Kitchen",
+      "lat": 14.60873548,
+      "lng": 120.9874157,
+      "address": "1085 Padre Noval St cor. J, Barlin St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "057623dc-fb44-4cda-a77b-22f8e0c7e687",
+      "name": "Don Benito’s Cassava Cake and Pichi Pichi (LOYOLA BRANCH)",
+      "lat": 14.60615212,
+      "lng": 120.9912014,
+      "address": "798 A.Galicia Cor. Sh PH, S.H.loyola St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "56160378-c238-401a-8544-9461f8d15cd1",
+      "name": "Draft Coffee",
+      "lat": 14.60719498,
+      "lng": 120.9890485,
+      "address": "J Bldg. 923, Padre Noval, Manila Sampaloc, 1008 Metro manila",
+      "enriched": false
+    },
+    {
+      "id": "9af853f2-0395-4543-92ca-fe32349d2228",
+      "name": "Drip Kofi",
+      "lat": 14.6076325,
+      "lng": 120.9884869,
+      "address": "España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "212e6815-2a42-43e9-84fa-cd33ead288eb",
+      "name": "EggStop",
+      "lat": 14.60796509,
+      "lng": 120.991437,
+      "address": "3/F, Unit 05, The One Grand Centre, Espana Blvd. Cor., Jhocson St., Barangay 465, Zone 046, Sampaloc 1008 Manila",
+      "enriched": false
+    },
+    {
+      "id": "c0940d7d-b4b5-429d-9ed6-f3e257ff7c50",
+      "name": "España Grill House",
+      "lat": 14.614903,
+      "lng": 120.9987037,
+      "address": "2050 Instruccion Street, cor España Blvd, Sampaloc, Manila, 1018 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "03a37c2b-8836-4349-933b-3f13eb5fd9d0",
+      "name": "Eva's",
+      "lat": 14.61004803,
+      "lng": 120.9905907,
+      "address": "1st Floor, UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "3d7a5740-c04e-478b-bb38-5bde1c3f178f",
+      "name": "Food Crib Tolentino Manila Branch",
+      "lat": 14.60829581,
+      "lng": 120.9871574,
+      "address": "1139 G.M. Tolentino St. Sampaloc Manila, Casa Ysabel building, Manila, Philippines",
+      "enriched": false
+    },
+    {
+      "id": "80442a6b-6c86-4d69-8aea-4c29d40d92cd",
+      "name": "Four Monkeys Pub",
+      "lat": 14.60577397,
+      "lng": 120.9908805,
+      "address": "1274 S.H.loyola St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "f81f251d-4f70-4a14-9567-68a59d235577",
+      "name": "Garaje Grill",
+      "lat": 14.61217324,
+      "lng": 120.9875839,
+      "address": "1251 Antonio St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "a1cd88a7-dfee-402c-a79a-004268d10551",
+      "name": "Goldilocks",
+      "lat": 14.60816574,
+      "lng": 120.9912018,
+      "address": "873 España Blvd, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "02c1d156-772f-42a0-bd80-cb17acb6980f",
+      "name": "GongCha",
+      "lat": 14.60812804,
+      "lng": 120.9913493,
+      "address": "870 M.F. Jhocson, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "208b45dd-72a4-43a6-9212-a003c90d6f48",
+      "name": "Good Munch So Munch Better",
+      "lat": 14.61118148,
+      "lng": 120.987612,
+      "address": "1345 Dapitan St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "b490555a-6185-418e-930a-45e636e7c4ce",
+      "name": "Haven’s Brew Dapitan",
+      "lat": 14.61406535,
+      "lng": 120.9910012,
+      "address": "1651 Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "c10b9d7c-00f9-4c83-8630-a582eb4cac75",
+      "name": "Heyday Cafe",
+      "lat": 14.60818381,
+      "lng": 120.9871851,
+      "address": "1070 Tolentino St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "77ec5846-7ed4-44a5-9059-1b33c7ed48eb",
+      "name": "Hidden Hatch Hookah Bar & Cafe",
+      "lat": 14.60762955,
+      "lng": 120.9863255,
+      "address": "1075 Padre Campa St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "89bb3a92-f29b-4423-995a-9524fa761f80",
+      "name": "Hijo De! Mexican cantina",
+      "lat": 14.61473816,
+      "lng": 120.9913356,
+      "address": "1201 M dela Fuente cor Dapitan Sampaloc, Manila, Philippines",
+      "enriched": false
+    },
+    {
+      "id": "0645874e-c04b-47b2-a21e-23ecc0535064",
+      "name": "HJK MNL",
+      "lat": 14.60764141,
+      "lng": 120.9882704,
+      "address": "1222 Delos Reyes St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "e0a86ae5-08a7-4852-8bbc-4a9dfcd89169",
+      "name": "Ice-Thetic",
+      "lat": 14.61184316,
+      "lng": 120.9880655,
+      "address": "1207 Antonio St, Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "d255027c-b79c-4b65-840c-658e8bc8412d",
+      "name": "Icebergs",
+      "lat": 14.61046699,
+      "lng": 120.9904215,
+      "address": "1st Floor, UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "031fc36e-bafb-4d31-8674-62aec592daf5",
+      "name": "Ilar's Tapsilogan",
+      "lat": 14.61102699,
+      "lng": 120.9920527,
+      "address": "976 Lacson Avenue corner Florentino St. Sampaloc Manila, Sampaloc, Philippines",
+      "enriched": false
+    },
+    {
+      "id": "0d24c243-59e3-4480-a94a-a00cecb9cc9e",
+      "name": "Inang Maria Eatery",
+      "lat": 14.61429866,
+      "lng": 120.9975923,
+      "address": "1969 España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "3f1c7c21-72cf-44d1-bfd0-ccfe1cb0125a",
+      "name": "J-Cobz Bistro",
+      "lat": 14.60563796,
+      "lng": 120.9907587,
+      "address": "1266 S.H.loyola St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "3ed172eb-4ac6-4c99-84ea-847f35df5eb2",
+      "name": "Jack Wings Unlimited Wings",
+      "lat": 14.61269021,
+      "lng": 120.988737,
+      "address": "1221 Gelinos St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "bd976404-025e-410d-b7f1-e4d9b2a3dbd6",
+      "name": "James and Che’s Bbq House",
+      "lat": 14.60584753,
+      "lng": 120.990511,
+      "address": "1251, 1008 S.H.loyola St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "d817fdfb-1da4-4af6-9a4c-aeae0ea376f6",
+      "name": "Jollibee - Lacson Branch",
+      "lat": 14.61297883,
+      "lng": 120.9894336,
+      "address": "1523 Dapitan St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "2973b9c8-94bc-4dd3-956b-8618ac86c24e",
+      "name": "Jollibee - P. Noval Branch",
+      "lat": 14.60775585,
+      "lng": 120.9892119,
+      "address": "Level 1, ONE GRAND CENTRE Espana Blvd, Corner M.F. Jhocson St, Manila City, Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "d56880eb-ed5c-4b28-b172-5d58a190fc0f",
+      "name": "K-Street",
+      "lat": 14.61325073,
+      "lng": 120.9900616,
+      "address": "1200, Dapitan Street, Corner Lacson Ave, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "592e605a-762e-4ffe-9684-3bfdc6c57e9a",
+      "name": "Kanto Freestyle Breakfast",
+      "lat": 14.61260945,
+      "lng": 120.988091,
+      "address": "1234 General, 1008 Concepcion St, Sampaloc, Manila, Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "d1abe4ed-58e8-41b3-af09-9608ff468d6f",
+      "name": "Kanto Tayo Bar & Restaurant",
+      "lat": 14.60683665,
+      "lng": 120.9914788,
+      "address": "1008 Moret St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "13e0a02e-4e64-475c-9c1d-a976be111922",
+      "name": "Kanzen Sushi Roll - P. Noval",
+      "lat": 14.60968716,
+      "lng": 120.9865242,
+      "address": "1173, 1015 Padre Noval St, Sampaloc, Maynila, Kalakhang Maynila",
+      "enriched": false
+    },
+    {
+      "id": "54cbd5a7-da90-4fb2-ad71-dbea1e7de5ce",
+      "name": "KenJohn Tapsilogan",
+      "lat": 14.60492909,
+      "lng": 120.9892718,
+      "address": "Near Padre Campa Cr. Espana",
+      "enriched": false
+    },
+    {
+      "id": "d29a22e6-838e-44f4-b635-8361af49bedd",
+      "name": "KFC - Dapitan Branch",
+      "lat": 14.61225327,
+      "lng": 120.9885142,
+      "address": "Zone 46, 1240 Dapitan St. Cor. V, Concepcion St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "0614dd13-b4cb-4866-8e3b-ca85cd97c9f0",
+      "name": "KFC - España Branch",
+      "lat": 14.61451151,
+      "lng": 120.9984056,
+      "address": "Zone 052, 846 Maceda St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "18b45010-fd8e-439c-8fb1-e330636d4d1e",
+      "name": "Kix N’ Bolz",
+      "lat": 14.60682138,
+      "lng": 120.9874079,
+      "address": "Padre Campa St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "0ba110a0-4f56-4665-8317-017e8d83c4bb",
+      "name": "KohiCo cafe",
+      "lat": 14.61211595,
+      "lng": 120.9873115,
+      "address": "JX6P+RWF, Asturias St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "2bc361be-2abf-46bc-a2a1-3eeaafde8436",
+      "name": "Kwadra Restobar & Billiards",
+      "lat": 14.60717387,
+      "lng": 120.992127,
+      "address": "Ponce Building, 1394 1015 S.H.loyola Street 3rd & 4th floor, Sampaloc, Manila, Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "43bf0418-c8c2-401c-ba05-207df045b7d8",
+      "name": "Kyukyu Ramen 99",
+      "lat": 14.61028799,
+      "lng": 120.990208,
+      "address": "1st Floor, UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "3f2af90d-0a0b-476f-9b5c-a89d1df1e1d7",
+      "name": "La Cocina De Mama",
+      "lat": 14.61180873,
+      "lng": 120.9883031,
+      "address": "Pacific Icon 2, UST Dapitan",
+      "enriched": false
+    },
+    {
+      "id": "45c1aa8d-8a71-411d-89d3-8d6ca89f69f3",
+      "name": "La Frontera",
+      "lat": 14.61212569,
+      "lng": 120.9875335,
+      "address": "1240 Asturias St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "25cea2be-7102-4606-a97c-0cedbc557441",
+      "name": "Las Tres Marias Deliciosa Lasana Manila Branch",
+      "lat": 14.60983766,
+      "lng": 120.9863698,
+      "address": "1177 Dapitan St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "a9470179-9cce-453f-a867-8d0581fc8821",
+      "name": "Lawson",
+      "lat": 14.61051834,
+      "lng": 120.9909203,
+      "address": "1st Floor, UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "c2faa20e-72af-4e32-abe1-c5dc267aecaf",
+      "name": "Lil Orbits",
+      "lat": 14.60796315,
+      "lng": 120.9914353,
+      "address": "870 M.F. Jhocson, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "d9954559-97e0-4773-83f1-7f93d70ec620",
+      "name": "Little Ice Age",
+      "lat": 14.61345764,
+      "lng": 120.9897351,
+      "address": "Dapitan corner Lacson",
+      "enriched": false
+    },
+    {
+      "id": "7ffcedc8-bd03-48a2-8fa6-9007493a8187",
+      "name": "LODS PARES",
+      "lat": 14.61396529,
+      "lng": 120.9928622,
+      "address": "1100 Vicente Cruz St, Sampaloc, Quezon City, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "d4c4be65-7ed6-4ee3-ac8c-4160e5b038c3",
+      "name": "Lovelite",
+      "lat": 14.61190802,
+      "lng": 120.9876689,
+      "address": "1355 Dapitan St, San Miguel, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "4fcc1934-ebd7-416e-933d-3ceee18e802f",
+      "name": "Lunar’s Donut Bakery",
+      "lat": 14.6220525,
+      "lng": 120.9931766,
+      "address": "Leyte St. Corner Luzon, Balic- Balic, Sampaloc Manila",
+      "enriched": false
+    },
+    {
+      "id": "a253a1bb-bf3b-4931-8f5b-1c7da81548dd",
+      "name": "Macao Imperial Tea - 107 Co-Working",
+      "lat": 14.61059548,
+      "lng": 120.9868825,
+      "address": "Pacific Suites, 1218 Santander St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "e1a2b2bf-824d-42f6-a871-9173654fd60b",
+      "name": "Mami Chula Cuisines",
+      "lat": 14.61179668,
+      "lng": 120.9870623,
+      "address": "1247-A Rosarito St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "92d8dedc-bf42-492d-bd50-ae1422c4bae1",
+      "name": "Mang Larry’s Isawan: The Famous Isawan in UP",
+      "lat": 14.6068298,
+      "lng": 120.9871779,
+      "address": "2nd Floor FuseBox Lifestyle Complex - Dapitan",
+      "enriched": false
+    },
+    {
+      "id": "37eeabfd-0438-42d4-ba5a-a144c54c1c94",
+      "name": "MANG TOOTZ Foodhouse",
+      "lat": 14.60768216,
+      "lng": 120.9861627,
+      "address": "1104 Barlin St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "815aa4c5-27f7-49f4-b6e5-048469bc1a99",
+      "name": "Manila Cafe Bistro",
+      "lat": 14.60810679,
+      "lng": 120.9881328,
+      "address": "Annie’s Place Bldg., 1015 P. Noval Street Brgy. 468, Sampaloc, Manila",
+      "enriched": false
+    },
+    {
+      "id": "d83d2156-f90b-4241-821c-1e89d4ef9694",
+      "name": "MAV’s Burger",
+      "lat": 14.61374903,
+      "lng": 120.9969471,
+      "address": "1907 España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "2823f2d6-ebef-489d-9dce-72602a563a3a",
+      "name": "McDonald’s - España",
+      "lat": 14.60597477,
+      "lng": 120.9883104,
+      "address": "España Blvd, cor Padre Campa St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "9f43e03a-ab9d-4c74-9c1d-304235284b89",
+      "name": "McDonald’s - Lacson",
+      "lat": 14.61300064,
+      "lng": 120.9899831,
+      "address": "Governor Forbes, Sampaloc, Manila, 1800 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "3a04971d-6070-4e9a-b494-67d10f1f5f11",
+      "name": "Mina Mini Mart",
+      "lat": 14.60862507,
+      "lng": 120.9871911,
+      "address": "1230 Barlin St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "ba3bf341-e64e-4dee-b1e0-b56fb8b1af2a",
+      "name": "Muhan Unlimited Samgyupsal",
+      "lat": 14.60618343,
+      "lng": 120.9900029,
+      "address": "1053 Padre Noval St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "5518dcd3-7a65-43f0-84f6-127d7c0b2faf",
+      "name": "Nelly’s Eatery",
+      "lat": 14.60834669,
+      "lng": 120.9866567,
+      "address": "1134 J. Barlin Street Sampaloc, 1015 Manila",
+      "enriched": false
+    },
+    {
+      "id": "ee28a15f-d3c0-4f2a-a572-fb863379070f",
+      "name": "Pancake House",
+      "lat": 14.61034248,
+      "lng": 120.9902653,
+      "address": "1st Floor, UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "18a8009b-3fc1-4b6e-8cc9-9b7da6ce1278",
+      "name": "Pickup Coffee - UST España",
+      "lat": 14.60737765,
+      "lng": 120.9904745,
+      "address": "1310 España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "01b51007-5d10-41ec-a907-072a34689a56",
+      "name": "Pizza Hut",
+      "lat": 14.61053561,
+      "lng": 120.9923656,
+      "address": "Celestial Marie BLDG, G/F, 820 A.H.Lacson St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "0551613f-901e-4693-9cfd-c3b8ea7b71ad",
+      "name": "Potato Corner",
+      "lat": 14.61116673,
+      "lng": 120.9876055,
+      "address": "1343 Dapitan, 471 Zone 46, Sampaloc Manila, 1008 Metro Manila, Philippines",
+      "enriched": false
+    },
+    {
+      "id": "977412a4-751e-421c-9ecd-a25eac95d6c1",
+      "name": "Potato Giant",
+      "lat": 14.61058462,
+      "lng": 120.9905875,
+      "address": "1st Floor, UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "fedb8bae-565d-48a6-8ba5-025c2efdb7b1",
+      "name": "Ramen Avenue",
+      "lat": 14.60538423,
+      "lng": 120.9906125,
+      "address": "789 Padre Noval St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "9dd51c64-610e-4f0b-a036-9499d58968d6",
+      "name": "Rarjap Sushi house España Sampaloc",
+      "lat": 14.61226226,
+      "lng": 120.988117,
+      "address": "1223 V Concepcion St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "03838505-be0f-4856-8a04-37f68821bad3",
+      "name": "Rice in a Box",
+      "lat": 14.61058462,
+      "lng": 120.9905875,
+      "address": "1st Floor, UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "6b2f25b4-dc97-4738-8b08-3eb8967bb0d2",
+      "name": "Ricing Star",
+      "lat": 14.61221449,
+      "lng": 120.9881746,
+      "address": "JX6Q+V7F, Concepcion St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "10b44d7a-7047-40be-9f32-86bf3be3f44b",
+      "name": "Roof Manila",
+      "lat": 14.61270984,
+      "lng": 120.9902657,
+      "address": "Pacific Skyloft, Lacson Ave, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "fbffde80-259a-4585-9ba2-334b081bf2c2",
+      "name": "Royaltea 皇茶",
+      "lat": 14.61187558,
+      "lng": 120.9883624,
+      "address": "1425 Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "a35dcc19-2a0c-4c8c-8d8d-1a917a70b76a",
+      "name": "S.R. Thai Cuisine",
+      "lat": 14.61231604,
+      "lng": 120.9880902,
+      "address": "1229 Concepcion St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "a433ae24-76a0-4ff4-b70f-687ca644727f",
+      "name": "Sabaw Manila",
+      "lat": 14.60565159,
+      "lng": 120.9908242,
+      "address": "1270 S.H.loyola St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "1131f7de-ea7f-4c9b-9364-b84f09923c2d",
+      "name": "Samgyup Night - Korean Grill & Seafood Fusion Unli Grill",
+      "lat": 14.6139256,
+      "lng": 120.9906323,
+      "address": "1623 Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "5609f821-32c2-4526-975e-ff577e71502c",
+      "name": "Santorini",
+      "lat": 14.60767532,
+      "lng": 120.9884339,
+      "address": "981, Padre Noval St cor Delos Reyes St. Sampaloc, Manila",
+      "enriched": false
+    },
+    {
+      "id": "e26608aa-fa9b-4f54-bcb3-5ec3ae5d7655",
+      "name": "Shakespeare",
+      "lat": 14.60704905,
+      "lng": 120.9872141,
+      "address": "987 Tolentino St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "5cb2430b-32e6-41da-b778-db4f0a50fec8",
+      "name": "Sisig Express",
+      "lat": 14.60761874,
+      "lng": 120.9880559,
+      "address": "465 Zone 46, Sampaloc Manila, 1213, 1008 Delos Reyes St, Sampaloc, Manila, Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "f62403c7-0d56-41b9-bc47-0e76cc87c924",
+      "name": "Starbucks",
+      "lat": 14.60719083,
+      "lng": 120.9888092,
+      "address": "G/F, i Tower, Padre Noval St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "1755347b-6aa9-4652-8b5f-d32802b61e5b",
+      "name": "Subway",
+      "lat": 14.61038013,
+      "lng": 120.990359,
+      "address": "1st Floor, UST Multilevel Carpark, Sampaloc, 1006 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "e9e8d494-ac58-40d2-af5a-439b12bea4a6",
+      "name": "tah-mee",
+      "lat": 14.60852731,
+      "lng": 120.9870405,
+      "address": "1220 Bldg. Eloisa St., Brgy. 465",
+      "enriched": false
+    },
+    {
+      "id": "77872518-6244-4067-9037-3ce5fbc4133e",
+      "name": "Tako Ti Tea",
+      "lat": 14.61233562,
+      "lng": 120.9873406,
+      "address": "1254 Asturias St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "6a4b4f45-ec04-405a-becd-f722d95518e3",
+      "name": "Takoyaken Takoyaki",
+      "lat": 14.61332974,
+      "lng": 120.9899989,
+      "address": "UST Dapitan",
+      "enriched": false
+    },
+    {
+      "id": "31b113f8-06fd-4dbd-a5fc-9977c7acd2f7",
+      "name": "Tapa Supreme",
+      "lat": 14.61531807,
+      "lng": 120.9919333,
+      "address": "JX8R+3Q4, Vicente Cruz St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "a0495c12-1e35-4dee-bfe6-5df9eaabde8b",
+      "name": "Tapsi Hut",
+      "lat": 14.60704825,
+      "lng": 120.9876417,
+      "address": "1148 I Delos Reyes St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "cf9ceb7f-7eac-4d1f-ab2f-6ab093666929",
+      "name": "Tastes from the Greens",
+      "lat": 14.61218403,
+      "lng": 120.9878583,
+      "address": "Unit 102 1211 Don Jose Building V. Concepcion St, Dapitan St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "43fadb6b-7c37-4f84-a328-92f35ae05a16",
+      "name": "TEA ‘n DOUGH",
+      "lat": 14.61964705,
+      "lng": 120.9946662,
+      "address": "Sanvill Building Laong-laan St. Cor Sisa St. Sampaloc Manila.",
+      "enriched": false
+    },
+    {
+      "id": "9af8c5cc-2ab3-4a00-be30-6366b9d3ce89",
+      "name": "The Biryani Story",
+      "lat": 14.61631995,
+      "lng": 120.9997345,
+      "address": "2139 España Blvd, Please choose, Sampaloc, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "71f30dff-0d5a-41dd-8e7d-61d152b0b6b6",
+      "name": "The Original Pares Mami House - España Branch",
+      "lat": 14.6161167,
+      "lng": 120.9992989,
+      "address": "2113, URC Bldg, España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "dac38707-37d9-4169-91f4-82b9b8141ad1",
+      "name": "The Rooftop 11:11",
+      "lat": 14.61360696,
+      "lng": 120.9973961,
+      "address": "Zone 52, 1920 Espana Blvd, Corner Kundiman St, Sampaloc, Manila, 1008",
+      "enriched": false
+    },
+    {
+      "id": "aeed2172-6ebb-42e0-a2ca-326c8e3d696f",
+      "name": "Tiger Winx - Concepcion Street",
+      "lat": 14.61245079,
+      "lng": 120.9881404,
+      "address": "1240 Concepcion St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "37147504-b785-43c9-912b-0b566b0d111d",
+      "name": "Tiger Winx - P. Noval",
+      "lat": 14.6061395,
+      "lng": 120.9899098,
+      "address": "1106 J Barlin St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "b4cc06ab-d91b-462a-83b7-fa59bd978b7c",
+      "name": "Tomo Coffee",
+      "lat": 14.6088714,
+      "lng": 120.9871748,
+      "address": "1427 Dapitan St, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "23f22daf-b7fe-4025-aae4-976f9904d3f5",
+      "name": "Turks",
+      "lat": 14.611272,
+      "lng": 120.9876275,
+      "address": "1218-1252 Rosarito St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "c0dbcdbb-8eae-45ba-a9b6-8cbf0caf254f",
+      "name": "Uncle John’s - España",
+      "lat": 14.60648225,
+      "lng": 120.9895823,
+      "address": "1224 España Blvd, Sampaloc, Manila, 1015 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "190a7ec9-422f-4510-97dc-62f53ea1b56c",
+      "name": "Uno’s Resto Bar",
+      "lat": 14.60584261,
+      "lng": 120.9888498,
+      "address": "1154 P Padre Campa St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "a2ea40fa-80ea-47a7-a49d-8b6ed8248c5c",
+      "name": "Wendy’s",
+      "lat": 14.61189099,
+      "lng": 120.9883626,
+      "address": "1427 Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "f9f06c86-950b-42f0-8447-36f4dc1ea71f",
+      "name": "Wing Vibe",
+      "lat": 14.60773602,
+      "lng": 120.9883221,
+      "address": "1222 Delos Reyes Corner P.Noval Street, Sampaloc, Manila",
+      "enriched": false
+    },
+    {
+      "id": "85b99b5d-124d-4f07-b956-13cea0eda8d1",
+      "name": "Wingdynasty",
+      "lat": 14.60647378,
+      "lng": 120.9908419,
+      "address": "852 Galicia St, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "cd10a7aa-0b21-43dd-8c8f-d6298e89ccb1",
+      "name": "Yaki Yaki UST Branch",
+      "lat": 14.60800905,
+      "lng": 120.9913674,
+      "address": "870 M.F. Jhocson, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "aa205544-acfa-4b6e-a337-299a444b428e",
+      "name": "Yellow Cab Pizza Co.",
+      "lat": 14.60947956,
+      "lng": 120.9927758,
+      "address": "Governor Forbes, 1122 Lourdes bldg, Lacson Ave, Sampaloc, Manila, 1008 Metro Manila",
+      "enriched": false
+    },
+    {
+      "id": "c219b635-e4de-49a0-a778-3950fe3a514a",
+      "name": "Zark's Burger / Ray's Hot Chicken",
+      "lat": 14.61216851,
+      "lng": 120.9874178,
+      "address": "1240 Asturias St., Metro Manila",
+      "enriched": false
+    }
+  ]
+}
