@@ -88,7 +88,7 @@ Two third-year Computer Science students, and University-Belt locals who had thi
 
 ## Category
 
-[Apps for Your Life / Education — lock before submitting]
+Apps for Your Life / Education
 
 ---
 
